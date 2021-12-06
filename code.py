@@ -1,6 +1,6 @@
 import time, threading
 # threading using for use multitasking....
-
+# using 2 function at a same time.
 def calc_cube(numbers):
     for i in numbers:
         time.sleep(0.1)
