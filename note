@@ -15,3 +15,10 @@
       |
       v
   main flow
+
+what is multiple thread ?
+>>> actual multiple threads lives within the same process.
+
+difference between thread and process :
+1. threads are light wight. (memory leak issue)
+2. processes are heavy wight.(no memory leak issue)
