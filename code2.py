@@ -1,6 +1,6 @@
 # Q.Sharing Data Between Processes Using Array and Value?
 from multiprocessing import Process, Array
-# we use Array type shared memory
+# we use Array shared memory
 
 
 def calc_square(numbers, result):
