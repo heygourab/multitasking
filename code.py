@@ -1,5 +1,5 @@
-import time, threading
-
+import time
+from threading import Thread
 # Multithreading is a technique where multiple are spawned
 # by a process to do different tasks, at about the same time,
 # just one after the other, This gives you the illusion that
@@ -25,8 +25,8 @@ if __name__ == '__main__':
     arr = [2, 3, 8, 9]
     t = time.time()
 
-    t1 = threading.Thread(target=calc_cube, args=(arr, ))
-    t2 = threading.Thread(target=calc_square, args=(arr, ))
+    t1 = Thread(target=calc_cube, args=(arr, ))
+    t2 = Thread(target=calc_square, args=(arr, ))
 
     t1.start()
     t2.start()
